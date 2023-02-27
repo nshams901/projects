@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --MarineBlue: hsl(213, 96%, 18%);
+    --PurplishBlue: hsl(243, 100%, 62%);
+    --PastelBlue: hsl(228, 100%, 84%);
+    --LightBlue: hsl(206, 94%, 87%);
+    --StrawberryRed: hsl(354, 84%, 57%);
+    --blue: #1e90ff;
+}
+
+body {
+    height: 100vh;
+    height: 100svh;
+}
+
+.pageBg {
+    background-color: var(--LightBlue);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebarImg {
+    max-width: 40rem;
+}
+
+.formBg {
+    position: relative;
+}
+
+.form {
+    position: absolute;
+    width: 320px;
+    transform: translate(0, 5rem);
+    background-color: #fff;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem 1.2rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 14px #46617a;
+}
+
+.input {
+    outline: unset;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #cfcece;
+    border-radius: 4px;
+    margin: 5px 0px 1rem 0px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.btn {
+    all: unset;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: .4rem;
+    cursor: pointer;
+    background-color: var(--MarineBlue);
+}
